@@ -1,0 +1,15 @@
+{
+  "name": "slush-slushify-example",
+  "version": "0.1.0",
+  "description": "A slushify example.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Lepel <simbo@simbo.de> (http://simbo.ninja)",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "gulp": "^3.9.0"
+  }
+}
