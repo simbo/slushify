@@ -7,9 +7,10 @@ var generator = new Slushify(gulp);
 
 generator.config.addOptions([{
     name: 'projectName',
-    question: 'Your project name:'
+    question: 'project name:'
 }, {
-    name: 'projectDescription'
+    name: 'projectDescription',
+    question: 'project description:'
 }]);
 
 generator.addTemplates('README.md');
