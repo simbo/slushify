@@ -1,7 +1,7 @@
 slushify
 ========
 
-  > For a better slush generator development.
+  > For faster slush generator development.
 
 [![npm Package Version](https://img.shields.io/npm/v/slushify.svg?style=flat-square)](https://www.npmjs.com/package/slushify)
 [![MIT License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://simbo.mit-license.org)
@@ -16,6 +16,105 @@ slushify
 
 # WORK IN PROGRESS
 
+<!-- MarkdownTOC -->
+
+- [How to…](#how-to…)
+    - [Create a Generator](#create-a-generator)
+    - [Add Options](#add-options)
+    - [Add Templates](#add-templates)
+- [Module classes](#module-classes)
+    - [Generator](#generator)
+    - [Config](#config)
+    - [Option](#option)
+    - [Question](#question)
+    - [TemplateSet](#templateset)
+- [License](#license)
+
+<!-- /MarkdownTOC -->
+
+## How to…
+
+### Create a Generator
+
+``` javascript
+var gulp = require('gulp'),
+    Generator = require('slushify');
+
+var generator = new Generator(gulp);
+```
+
+
+### Add Options
+
+
+### Add Templates
+
+
+## Module classes
+
+
+### Generator
+
+
+#### Properties
+
+
+#### Methods
+
+
+#### Events
+
+All event callbacks get current Generator instance as first argument.
+
+  - `startingGulpTask`
+  - `askingQuestions`
+  - `afterAskingQuestions`
+  - `scaffolding`
+  - `afterScaffolding`
+
+
+### Config
+
+
+#### Properties
+
+
+#### Methods
+
+
+### Option
+
+
+#### Properties
+
+
+#### Methods
+
+
+#### Properties
+
+
+#### Methods
+
+
+### Question
+
+
+#### Properties
+
+
+#### Methods
+
+
+### TemplateSet
+
+
+#### Properties
+
+
+#### Methods
+
+
 ## License
 
-[MIT, Simon Lepel 2015](http://simbo.mit-license.org/)
+[MIT &copy; Simon Lepel 2015](http://simbo.mit-license.org/)
